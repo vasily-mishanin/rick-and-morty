@@ -1,2 +1,0 @@
-
-Rick And Morty
