@@ -1,0 +1,7 @@
+.img-preview-wrapper {
+  max-width: 200px;
+}
+
+.img-preview-wrapper img {
+  max-width: 25%;
+}

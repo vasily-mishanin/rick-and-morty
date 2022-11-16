@@ -1,0 +1,11 @@
+.error-page {
+  height: 20rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+}

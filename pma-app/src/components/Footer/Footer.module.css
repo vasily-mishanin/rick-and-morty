@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.footer__logo {
+  width: 4rem;
+}
+
+.footer__logo-github {
+  width: 2rem;
+}

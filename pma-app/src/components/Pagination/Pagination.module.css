@@ -1,0 +1,50 @@
+.pagination {
+  display: flex;
+  gap: 1rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.item {
+}
+
+.pageBtn {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.currentPage {
+  background-color: salmon;
+}
+
+.controlBtnLeft,
+.controlBtnRight {
+  border: none;
+  width: 0;
+  height: 0;
+  border-radius: 1rem;
+  background: none;
+  cursor: pointer;
+}
+
+.controlBtnLeft {
+  border-right: 1rem solid var(--main-blue-color);
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+.controlBtnRight {
+  border-left: 1rem solid var(--main-blue-color);
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+.controlBtnLeft:hover {
+  border-right-color: var(--main-green-color);
+}
+.controlBtnRight:hover {
+  border-left-color: var(--main-green-color);
+}

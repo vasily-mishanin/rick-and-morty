@@ -1,0 +1,82 @@
+.taskform {
+  padding: 1rem;
+  border: 1px dotted black;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.taskform label {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.taskform__assign {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskform__assign input[name='taskName'] {
+  width: 80%;
+}
+
+.taskform__dates {
+  display: flex;
+  gap: 1rem;
+}
+
+.taskform__date {
+}
+
+.taskform__description {
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 2rem;
+}
+
+.taskform__taskstate {
+}
+
+.taskform__options {
+}
+.taskform__optionsFieldset {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.taskform__submit {
+  text-align: right;
+}
+
+.taskform__submit button {
+  padding: 0.5rem;
+  width: 5rem;
+  background-color: rgb(128, 224, 72);
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
+
+.taskform__submit button:hover {
+  outline: 1px solid black;
+  cursor: pointer;
+}
+
+.taskform__val-err-msg {
+  color: salmon;
+  font-size: 0.85rem;
+  visibility: hidden;
+}
+
+.shown {
+  visibility: visible;
+}
+
+@media (min-width: 1024px) {
+  .taskform {
+    max-width: 50%;
+  }
+}

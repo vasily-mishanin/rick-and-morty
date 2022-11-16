@@ -1,0 +1,9 @@
+.form-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-heading {
+  margin-bottom: 1rem;
+}
